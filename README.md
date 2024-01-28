@@ -50,7 +50,7 @@
 ## Part A- Assumtions
   This code takes input for two variables `n` and `acc` (step by step from the I/O by the user), calculates the sum of `n` and `acc`, and then prints the result.
 
-![image](pr_tail_recursive.png)
+![image](pr2_tail_recursive.png)
 
 
 ## .data Section
@@ -122,7 +122,7 @@ The `sum_exit` label is reached when `n` is less than or equal to 0. The functio
     - `ret`
 
 ## Part B (Normal Recursive): Explanation:-
-![image](pr_recursive.png)
+![image](pr2_recursive.png)
 
 This code is designed to calculate the sum of all positive integers from n down to 1 by using recursion.
 
@@ -202,8 +202,7 @@ This part of the code is executed when the loop exits (i.e., when `n` becomes le
 To summarize, this code calculates the sum of all positive integers up to a given value `n`. It does this by iterating over each positive integer from `n` down to 0, adding them to an accumulator (`a1`). The final sum is stored in `a1` and returned as the result of the function.
 
 
-![image](graph.png)
-![image](graph.png)
+
 
 # Problem 3:
 ![image](pr3.png)
