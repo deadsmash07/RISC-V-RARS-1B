@@ -1,6 +1,11 @@
 # Code Documentation
 
+## Unique_Identifier : I have made a directory named "2022CS51652" which is my Entry number and inside that directory I have made a directory named "Assignment1B" which is the name of the assignment.
+
+
+
 # Problem 1.
+ ![image](pr1.png)
 
 ## Assumtions
 - we take two inputs one for n and one for r in step by step manner
@@ -44,6 +49,9 @@
 
 ## Part A- Assumtions
   This code takes input for two variables `n` and `acc` (step by step from the I/O by the user), calculates the sum of `n` and `acc`, and then prints the result.
+
+![image](pr_tail_recursive.png)
+
 
 ## .data Section
 
@@ -114,6 +122,7 @@ The `sum_exit` label is reached when `n` is less than or equal to 0. The functio
     - `ret`
 
 ## Part B (Normal Recursive): Explanation:-
+![image](pr_recursive.png)
 
 This code is designed to calculate the sum of all positive integers from n down to 1 by using recursion.
 
@@ -161,9 +170,11 @@ sum_exit:
 These lines define the sum_exit label and transfer the sum result (value in register a1) to register a0, which will be used as the return value for the function. The ret instruction is used to indicate the end of the function and return control to the calling code.
 
 
+![image](graph.png)
 
 ## Part C : (Iterative version): 
  again same input style of taking n and acc step by step from the I/O 
+![image](pr2_itr.png)
 
  ## Code Explanation
 
@@ -192,8 +203,10 @@ To summarize, this code calculates the sum of all positive integers up to a give
 
 
 ![image](graph.png)
+![image](graph.png)
 
 # Problem 3:
+![image](pr3.png)
 
 ## Assumptions:
 - The program is written in RISC-V assembly language and can be run on a RISC-V simulator or emulator
